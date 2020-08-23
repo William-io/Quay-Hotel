@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Quay_hotel.Domain.SaleContext.Entities;
 
 namespace Quay_hotel.Test
 {
@@ -8,6 +9,14 @@ namespace Quay_hotel.Test
         [TestMethod]
         public void TestMethod1()
         {
+            var c = new Customer(
+                "William", 
+                "Vilela", 
+                "701231", 
+                "Capuletos@live.com",
+                "8598898989",
+                "Prof.Teodorico");
+            //c.FirstName = "";
         }
     }
 }
