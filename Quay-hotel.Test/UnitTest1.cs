@@ -16,7 +16,12 @@ namespace Quay_hotel.Test
                 "Capuletos@live.com",
                 "8598898989",
                 "Prof.Teodorico");
-            //c.FirstName = "";
+
+            var order = new Order(c);
+            
+
+
         }
     }
 }
+//Bookings é a reserva, como o item de produto
