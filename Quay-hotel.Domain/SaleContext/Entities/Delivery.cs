@@ -1,7 +1,5 @@
 ﻿using Quay_hotel.Domain.SaleContext.Enums;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Quay_hotel.Domain.SaleContext.Entities
 {

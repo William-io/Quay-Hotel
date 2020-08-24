@@ -12,7 +12,7 @@ namespace Quay_hotel.Test
             var c = new Customer(
                 "William", 
                 "Vilela", 
-                "701231", 
+                "701231",
                 "Capuletos@live.com",
                 "8598898989",
                 "Prof.Teodorico");
